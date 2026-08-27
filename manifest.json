@@ -12,6 +12,18 @@
           "src": "test-page.html"
         }
       ]
+    },
+    "transfer-accounts-prototype": {
+      "slug": "transfer-accounts-prototype",
+      "dir": "transfer-accounts-prototype-07f8a414",
+      "title": "Transfer Accounts 双端原型",
+      "created": "2026-08-27T19:14:24+08:00",
+      "versions": [
+        {
+          "ts": "2026-08-27-191424",
+          "src": "transfer-accounts-prototype.html"
+        }
+      ]
     }
   }
 }
