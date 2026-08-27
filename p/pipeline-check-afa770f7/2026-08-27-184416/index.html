@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>发布链路自检</title>
+<style>
+:root{--bg:#fbfaf9;--fg:#1c1b19;--muted:#6b6862;--card:#fff;--line:#e6e2dc;--ok:#2f7d4f;--accent:#b8510f}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+--bg:#16150f;--fg:#f0eee8;--muted:#9c968a;--card:#211f18;--line:#33302a;--ok:#6fbf8b;--accent:#e08d4f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);padding:56px 20px;
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+.wrap{max-width:640px;margin:0 auto}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;color:var(--ok);
+border:1px solid var(--ok);border-radius:999px;padding:4px 12px;margin-bottom:20px}
+h1{font-size:1.75rem;margin:0 0 10px;letter-spacing:-.02em}
+.lead{color:var(--muted);margin:0 0 36px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px 26px;margin-bottom:18px}
+.card h2{font-size:.8125rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 16px;font-weight:600}
+dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 18px;font-size:.9375rem}
+dt{color:var(--muted)} dd{margin:0}
+.y{color:var(--ok);font-weight:600}
+.note{font-size:.875rem;color:var(--muted);border-left:3px solid var(--accent);padding:2px 0 2px 16px;margin:0}
+code{font-size:.875em;background:var(--bg);padding:1px 5px;border-radius:4px;border:1px solid var(--line)}
+footer{margin-top:36px;font-size:.75rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">链路正常</span>
+  <h1>发布链路自检</h1>
+  <p class="lead">这个页面由 Claude 在云端生成，经你 Mac 上的 <code>publish.sh</code> 推送到 GitHub Pages。你能读到它，说明整条链路是通的。</p>
+  <div class="card">
+    <h2>验证项</h2>
+    <dl>
+      <dt>Mac → GitHub 推送</dt><dd class="y">通过</dd>
+      <dt>令牌鉴权</dt><dd class="y">通过</dd>
+      <dt>Pages 构建发布</dt><dd class="y">通过</dd>
+      <dt>跨组织可访问</dt><dd class="y">通过（无需登录）</dd>
+      <dt>noindex 注入</dt><dd class="y">已注入</dd>
+    </dl>
+  </div>
+  <div class="card">
+    <h2>接下来怎么用</h2>
+    <p class="note">我生成任何 HTML 后，跑一次 <code>publish.sh &lt;文件&gt; &lt;页面名&gt;</code>，就会回一条固定外链和一条本次归档链接。同一个页面名重复发布，固定外链不变，同事刷新即见新内容。</p>
+  </div>
+  <footer>KIJI PTE. LTD. · 由 Claude 生成</footer>
+</div>
+</body>
+</html>

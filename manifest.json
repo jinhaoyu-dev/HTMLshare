@@ -1,0 +1,17 @@
+{
+  "index_token": "4e1a36b9611a469fbacb2dbe49d9e2d9",
+  "pages": {
+    "pipeline-check": {
+      "slug": "pipeline-check",
+      "dir": "pipeline-check-afa770f7",
+      "title": "发布链路自检",
+      "created": "2026-08-27T18:44:16+08:00",
+      "versions": [
+        {
+          "ts": "2026-08-27-184416",
+          "src": "test-page.html"
+        }
+      ]
+    }
+  }
+}
