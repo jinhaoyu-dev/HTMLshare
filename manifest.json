@@ -24,6 +24,18 @@
           "src": "transfer-accounts-prototype.html"
         }
       ]
+    },
+    "auth2-delivery-gantt": {
+      "slug": "auth2-delivery-gantt",
+      "dir": "auth2-delivery-gantt-67b25e46",
+      "title": "auth2 交付批甘特图",
+      "created": "2026-09-04T16:45:23+08:00",
+      "versions": [
+        {
+          "ts": "2026-09-04-164523",
+          "src": "auth2-gantt.html"
+        }
+      ]
     }
   }
 }
